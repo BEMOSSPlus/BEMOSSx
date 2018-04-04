@@ -1,0 +1,65 @@
+Reference Point Name,BACnet Object Type,Index
+Network Bridge,device,830568
+LMLS-400-1,analogInput,4001
+LMLS-400-2,analogInput,4002
+DIMMER-1,analogOutput,1
+DIMMER-2,analogOutput,2
+DIMMER-3,analogOutput,3
+DIMMER-4,analogOutput,4
+DIMMER-5,analogOutput,5
+WATTAGE-1,analogValue,1
+WATTAGE-2,analogValue,2
+WATTAGE-3,analogValue,3
+VOLTAGE-1,analogValue,401
+VOLTAGE-2,analogValue,402
+VOLTAGE-3,analogValue,403
+CURRENT-1,analogValue,501
+CURRENT-2,analogValue,502
+CURRENT-3,analogValue,503
+LOAD SHED LEVEL-1,analogValue,601
+LOAD SHED LEVEL-2,analogValue,602
+LOAD SHED LEVEL-3,analogValue,603
+LOAD SHED LEVEL-4,analogValue,604
+LOAD SHED LEVEL-5,analogValue,605
+MS/TP MAC,analogValue,901
+MS/TP BAUD,analogValue,902
+ROOM SIZE,analogValue,903
+TOTAL ROOM WATTAGE,analogValue,904
+ROOM WATTS PER SQFT,analogValue,905
+TOTAL PLUGLOAD WATTAGE,analogValue,906
+OpenADR MEDIUM WATTS,analogValue,907
+OpenADR HIGH WATTS,analogValue,908
+OpenADR SPECIAL WATTS,analogValue,909
+OpenADR THRESHOLD WATTS,analogValue,910
+ROOM RELIABILITY POLLING INTERVAL,analogValue,911
+MS/TP NODE COUNT,analogValue,999
+DAYLIGHT FADE RATE-1,analogValue,4101
+DAYLIGHT FADE RATE-2,analogValue,4102
+DAYLIGHT DAY SETPOINT-1,analogValue,4201
+DAYLIGHT DAY SETPOINT-2,analogValue,4202
+DAYLIGHT NIGHT SETPOINT-1,analogValue,4301
+DAYLIGHT NIGHT SETPOINT-2,analogValue,4302
+DAYLIGHT OFF DELAY-1,analogValue,4401
+DAYLIGHT OFF DELAY-2,analogValue,4402
+DAYLIGHT ON SETPOINT-1,analogValue,4501
+DAYLIGHT ON SETPOINT-2,analogValue,4502
+DAYLIGHT OFF SETPOINT-1,analogValue,4601
+DAYLIGHT OFF SETPOINT-2,analogValue,4602
+RELAY-1,binaryOutput,1
+RELAY-2,binaryOutput,2
+RELAY-3,binaryOutput,3
+RELAY-4,binaryOutput,4
+RELAY-5,binaryOutput,5
+NORMAL/AFTER HOURS,binaryValue,1
+SWITCH LOCK CONTROL,binaryValue,2
+ROOM OCCUPANCY STATUS,binaryValue,3
+ROOM FORCE ON,binaryValue,4
+ROOM FORCE OFF,binaryValue,5
+SCENE-CONTROL,multiStateValue,1
+LOAD-SHED-CONTROL,multiStateValue,2
+DEMAND-RESPONSE-CONTROL,multiStateValue,3
+DEMAND-RESPONSE-SHED-MODE,multiStateValue,4
+DAYLIGHT OPERATING MODE-1,multiStateValue,4001
+DAYLIGHT OPERATING MODE-2,multiStateValue,4002
+DAYLIGHT OFF MULTIPLIER-1,multiStateValue,4101
+DAYLIGHT OFF MULTIPLIER-2,multiStateValue,4102

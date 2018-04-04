@@ -1,0 +1,72 @@
+Reference Point Name,BACnet Object Type,Index
+belimo_valve,device,4096
+RelPos,analogInput,1
+AbsPos,analogInput,2
+RelFlow,analogInput,10
+AbsFlow_lmin,analogInput,11
+AbsFlow_m3h,analogInput,12
+AbsFlow_gpm,analogInput,13
+AbsFlow_ls,analogInput,14
+AbsFlow_lh,analogInput,15
+SpAbs_m3h,analogInput,17
+SpAbs_lmin,analogInput,16
+SpAbs_ls,analogInput,19
+ResetHeating_E,binaryOutput,32
+SpAbs_gpm,analogInput,18
+SpAnalog_V,analogInput,21
+SpAbs_lh,analogInput,20
+T2_C,analogInput,23
+T1_C,analogInput,22
+T1_F,analogInput,25
+DeltaT_K,analogInput,24
+DeltaT_F,analogInput,27
+T2_F,analogInput,26
+E_Cooling_kWh,analogInput,31
+AbsPower_kW,analogInput,30
+RstErrCount,binaryValue,100
+E_Heating_MJ,analogInput,34
+AbsPower_kBTUh,analogInput,35
+E_Heating_kWh,analogInput,32
+Excessive utilization,binaryInput,112
+E_Cooling_MJ,analogInput,33
+E_Cooling_kBTU,analogInput,36
+E_Heating_kBTU,analogInput,37
+RelPower,analogInput,40
+E_Cooling_tonh,analogInput,46
+E_Heating_tonh,analogInput,47
+AbsPower_ton,analogInput,45
+ResetCooling_E,binaryOutput,31
+GlycolConcentration,analogInput,48
+Fault Sensor T2,binaryInput,102
+Fault Flow Sensor,binaryInput,103
+Fault Sensor T1,binaryInput,101
+Fault Airbubbles,binaryInput,106
+Fault Flow not reached,binaryInput,107
+Fault Actuator cannot move,binaryInput,104
+Fault Flow with closed valve,binaryInput,105
+Intern Activity,binaryInput,110
+Watchdog trigger,binaryInput,111
+Fault Power not realized,binaryInput,108
+Fault Gear disengaged,binaryInput,109
+Pmax_kW,analogValue,95
+Vmax_gpm,analogValue,91
+Vmax_lmin,analogValue,90
+SpSource,multiStateOutput,2
+Override,multiStateOutput,1
+SpRel,analogOutput,1
+SpPosReached,binaryInput,1
+Vnom_gpm,analogInput,102
+ErrorState,analogInput,100
+Vnom_lmin,analogInput,101
+Pnom_kW,analogInput,106
+Pnom_kBTUh,analogInput,107
+SpFlow_DeltaT_lmin,analogValue,108
+ControlMode,multiStateValue,100
+SPFlow_DeltaT_gpm,analogValue,109
+DeltaT_Limitation,multiStateValue,101
+SpDeltaT_F,analogValue,104
+Pmax,analogValue,105
+SpDeltaT_K,analogValue,103
+Vmax,analogValue,100
+Pmax_kBTUh,analogValue,96
+DeltaT_Mgr_Status,multiStateInput,102

@@ -1,0 +1,10 @@
+Device number,Model Name,Reference Point Name,BACnet Object Type,Index
+1,LMLS-400,ILLUMINATION,analogInput,4001
+2,LMLS-400,ILLUMINATION,analogInput,4002
+3,LMRC-212,DIMMER,analogOutput,1
+3,LMRC-212,VOLTAGE,analogValue,401
+4,LMRC-212,DIMMER,analogOutput,2
+4,LMRC-212,VOLTAGE,analogValue,402
+5,LMRC-212,DIMMER,analogOutput,3
+6,LMRC-212,DIMMER,analogOutput,4
+7,LMPL-201,RELAY,binaryOutput,5

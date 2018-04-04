@@ -1,0 +1,79 @@
+Reference Point Name,BACnet Object Type,Index
+MES eBox,device,123
+0x018AFD6B [0] (3) Rel. Humidity (linear),analogInput,133003
+0x018AFD6B [0] (2) Temperature (linear),analogInput,133002
+0x018AFD6B [0] (1) Availability of the Temperature Sensor,binaryInput,133001
+0x018AFD6B {Manufacturer},multiStateInput,133998
+0x018AFD6B {Signal},binaryInput,133997
+0x018AFD6B {RSSI},analogInput,133999
+0x018AFD6B {HeartBeat},analogOutput,133996
+0x0181D0C9 [0] (1) Single Input Contact,binaryInput,135001
+0x0181D0C9 {Signal},binaryInput,135997
+0x0181D0C9 {RSSI},analogInput,135999
+0x0181D0C9 {HeartBeat},analogOutput,135996
+0x0194F5BF [0] (3) Supply voltage / super cap. (linear); 251-255 reserved for error code,analogInput,137003
+0x0194F5BF [0] (2) PIR Status,multiStateInput,137002
+0x0194F5BF [0] (1) Support voltage availability,binaryInput,137001
+0x0194F5BF {Manufacturer},multiStateInput,137998
+0x0194F5BF {Signal},binaryInput,137997
+0x0194F5BF {RSSI},analogInput,137999
+0x0194F5BF {HeartBeat},analogOutput,137996
+0x01A157DF [0] (15) Set point (linear) Min- .. Max+,analogInput,138015
+0x01A157DF [0] (14) Temperature (linear),analogInput,138014
+0x01A157DF [0] (13) Turn-switch for fan,multiStateInput,138013
+0x01A157DF [0] (12) Rel. Humidity (linear),analogInput,138012
+0x01A157DF [0] (11) Unoccupied Heating Limit,analogInput,138011
+0x01A157DF [0] (10) Unoccupied Cooling Limit,analogInput,138010
+0x01A157DF [0] (9) Occupied Set point Limit High,analogInput,138009
+0x01A157DF [0] (8) Occupied Set point Limit Low,analogInput,138008
+0x01A157DF [0] (7) Comfort Set point,analogInput,138007
+0x01A157DF [0] (6) Error Code,analogInput,138006
+0x01A157DF [0] (5) Relay 1,binaryInput,138005
+0x01A157DF [0] (4) Relay 2,binaryInput,138004
+0x01A157DF [0] (3) Relay 3,binaryInput,138003
+0x01A157DF [0] (2) Relay 4,binaryInput,138002
+0x01A157DF [0] (1) Relay 5,binaryInput,138001
+0x01A157DF {Manufacturer},multiStateInput,138998
+0x01A157DF {Signal},binaryInput,138997
+0x01A157DF {RSSI},analogInput,138999
+0x01A157DF {HeartBeat},analogOutput,138996
+0x0180C54B [0] (1) Single Input Contact,binaryInput,130001
+0x0180C54B {Signal},binaryInput,130997
+0x0180C54B {RSSI},analogInput,130999
+0x0180C54B {HeartBeat},analogOutput,130996
+0x018AE86F [0] (3) Rel. Humidity (linear),analogInput,132003
+0x018AE86F [0] (2) Temperature (linear),analogInput,132002
+0x018AE86F [0] (1) Availability of the Temperature Sensor,binaryInput,132001
+0x018AE86F {Manufacturer},multiStateInput,132998
+0x018AE86F {Signal},binaryInput,132997
+0x018AE86F {RSSI},analogInput,132999
+0x018AE86F {HeartBeat},analogOutput,132996
+0x01924CD6 [0] (3) Supply voltage / super cal. (linear); 251-255 reserved for error code,analogInput,129003
+0x01924CD6 [0] (2) Illumination (linear),analogInput,129002
+0x01924CD6 [0] (1) PIR Status,binaryInput,129001
+0x01924CD6 {Manufacturer},multiStateInput,129998
+0x01924CD6 {Signal},binaryInput,129997
+0x01924CD6 {RSSI},analogInput,129999
+0x01924CD6 {HeartBeat},analogOutput,129996
+0x0194F582 [0] (3) Supply voltage / super cap. (linear); 251-255 reserved for error code,analogInput,131003
+0x0194F582 [0] (2) PIR Status,multiStateInput,131002
+0x0194F582 [0] (1) Support voltage availability,binaryInput,131001
+0x0194F582 {Manufacturer},multiStateInput,131998
+0x0194F582 {Signal},binaryInput,131997
+0x0194F582 {RSSI},analogInput,131999
+0x0194F582 {HeartBeat},analogOutput,131996
+"0x00860A80 [0] (1) Rocker Switch, 2 Rocker",analogValue,136001
+0x00860A80 Rocker1,binaryValue,136002
+0x00860A80 Rocker2,binaryValue,136003
+0x00860A80 EnergyBow,binaryValue,136004
+0x00860A80 {Signal},binaryInput,136997
+0x00860A80 {RSSI},analogInput,136999
+0x00860A80 {HeartBeat},analogOutput,136996
+Update interval,analogOutput,1
+CPU load,analogInput,2
+Free RAM in kb,analogInput,3
+System UpTime in hours,analogInput,4
+EnOcean Error Count,analogInput,5
+BACnet Stack Error Count,analogInput,6
+Misc Error Count,analogInput,7
+Create Error Log,binaryOutput,8

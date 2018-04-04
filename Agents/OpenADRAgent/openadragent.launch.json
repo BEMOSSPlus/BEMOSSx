@@ -1,0 +1,15 @@
+{
+    "agent": {
+        "exec": "openrtu-0.1-py2.7.egg --config \"%c\" --sub \"%s\" --pub \"%p\""
+    },
+    "agentid": "openadragent",
+    "ven_id": "BEMOSS_OADR_VEN",
+    "vtn_uri": "http://192.168.10.69:8080/oadr2-vtn-groovy",
+    "vtn_ids": "ENOCtestVTN1",
+    "poll_interval": 15,
+    "control_interval": 30,
+    "smap_uri": "http://localhost:8079/add/IQuVS0FUNDtuW3K8TjENCksouh2U2trKKTkS",
+    "smap_source_name": "BEMOSS data",
+    "smap_series_uuid": "4a1ed488-a498-11e1-91af-00708dca5a06",
+    "smap_source_location": "/smap/event_data/location"
+}
